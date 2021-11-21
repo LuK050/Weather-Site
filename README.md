@@ -3,7 +3,7 @@
 
 ### Начальная страница:
 
-![image](https://user-images.githubusercontent.com/78260779/142764653-7bb807e3-6bdb-40bd-b332-f151b6e348b4.png)
+![image](https://user-images.githubusercontent.com/78260779/142764759-a9e9acb5-9238-487a-91bc-a48c3cb0d445.png)
 
 
 ### Результат:
