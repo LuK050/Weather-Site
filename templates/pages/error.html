@@ -1,0 +1,17 @@
+{% extends 'bases/base.html'%}
+
+{% block title %}
+Главная
+{% endblock %}
+
+{% block body %}
+
+<h1>Произошла ошибка!</h1>
+
+<br>
+
+<div class="alert alert-danger" role="alert">
+    <h6>{{ error }}</h6>
+</div>
+
+{% endblock %}

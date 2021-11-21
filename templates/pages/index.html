@@ -1,0 +1,36 @@
+{% extends 'bases/base.html'%}
+
+{% block title %}
+Погода
+{% endblock %}
+
+{% block body %}
+
+{% if not city %}
+    <h1><a href="/">Погода</a></h1>
+    <form method="post">
+
+        <h5>Введите город</h5>
+        <div class="input-group mb-3 input-group-lg">
+            <input type="text" class="form-control" name="city" id="city" aria-describedby="button-addon2">
+            <input type="submit" class="btn btn-primary" value="Узнать" id = "submit-button">
+        </div>
+
+    </form>
+
+{% else %}
+    <h1>Погода в городе {{ city }}</h1>
+    <br>
+
+    <div class="alert alert-info">
+        <h5>Краткий обзор ・ {{ weather["detailed_status"] }}</h5>
+        <br>
+        <h6>Температура ・ {{ weather["temperature"] }}°С</h6>
+        <h6>Влажность ・ {{ weather["humidity"] }}%</h6>
+        <h6>Скорость ветра ・ {{ weather["wind"] }}м/c</h6>
+        <br>
+    </div>
+
+{% endif %}
+
+{% endblock %}
