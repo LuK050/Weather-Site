@@ -24,5 +24,3 @@ class Weather:
         
         except NotFoundError:
             return None
-        
-        
