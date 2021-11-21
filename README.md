@@ -1,2 +1,2 @@
 # WeatherSite
-Простой сайт на Python для получения текущей погоды, в основе которого лежат фреймворк Flask, Bootstrap и Jinja. 
+Простой сайт на **Python** для получения **текущей погоды**. В основе лежат фреймворк **[Flask](https://ru.wikipedia.org/wiki/Flask_(%D0%B2%D0%B5%D0%B1-%D1%84%D1%80%D0%B5%D0%B9%D0%BC%D0%B2%D0%BE%D1%80%D0%BA))**, **[Bootstrap](https://getbootstrap.com/)** и **[Jinja](https://ru.wikipedia.org/wiki/Jinja)**. Сайт создавался в целях обучения написания **бэкэнд части сайта** на **Python**. 
