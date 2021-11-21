@@ -9,9 +9,8 @@ class Site:
 
     @app.route("/", methods = ["GET", "POST"])
     def index():
-        
         if request.method == "POST":
-            
+    
             if request.form["city"] is None or request.form["city"] == "":
                 return render_template("pages/index.html", city = False)
             
@@ -22,7 +21,6 @@ class Site:
                 return render_template("pages/error.html", error = "Указанный вами город не найден!")
 
             return render_template("pages/index.html", city = city, weather = weather)
-        
         else:
             return render_template("pages/index.html", city = False)
 
