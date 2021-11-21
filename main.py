@@ -17,7 +17,6 @@ class Site:
             
             else:
                 city = request.form["city"].title()
-    
                 weather = Weather.get_weather(city)
                 
                 if weather is None:
